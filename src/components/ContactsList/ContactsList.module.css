@@ -1,0 +1,28 @@
+.item {
+  display: flex;
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn {
+  display: flex;
+  position: absolute;
+  right: -70px;
+  padding: 5px;
+  width: 70px;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #03647c;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #079fc5;
+}
